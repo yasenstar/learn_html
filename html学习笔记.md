@@ -64,6 +64,8 @@ hello world!!!
 
 ### Text Fields（文本框）
 
+使用两个文本框的示例页面：
+
 ``` HTML
 <body>
     <form action="submit.html" method="post">
@@ -76,6 +78,50 @@ hello world!!!
         <input type=submit" value="Submit">
     </form>
 </body>
+```
+
+增加一个文本框的例子：
+
+在之前的contacts.html文件中，增加下面的DIV部分：
+
+``` HTML
+<div id="contactDetails"><h2>Contact Details</h2>
+    <form method="post">
+        <div lass="formRow">
+            <label for="contactName">Contact Name</label>
+            <input name="contactName" id="contactName" type="text"/>
+        </div>
+    </form>
+</div>
+```
+
+为了使各个标签和文本框的风格都一致，在contacts.css中增加如下的风格语句：
+
+``` CSS
+label {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input {
+    width: 200px;
+}
+```
+
+注意：你需要把label的显示类型做相应改变已适应宽度。
+
+你可以输入如下代码啦：
+
+``` HTML
+<div class="formRow">
+    <label for="phoneNumber">Phone Number</label>
+    <input name="phoneName" id="phoneNumber" type="text"/>
+</div>
+<div class="formRow">
+    <label for="emailAddress">Email Address</label>
+    <input name="emailAddress" id="emailAddress" type="text"/>
+</div>
 ```
 
 ### Select Lists （选择列表）
