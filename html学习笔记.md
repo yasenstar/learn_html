@@ -2,6 +2,8 @@
 
 [TOC]
 
+HTML 的全称是 Hyper-Text Markup Language （超文本标记语言）
+
 ## 什么是 MARKUP LANGUAGE （标记语言）？
 
 ``` HTML
