@@ -151,10 +151,29 @@ input {
 <option value="3" selected>CCC公司</option>
 ```
 
+增加对formRow的风格：
+
+``` HTML
+<div class="formRow">
+    <input style="width:70px" type="submit" value="Save"/>
+</div>
+```
+
 ### Text Boxes (多行文本框)
 ### Checkboxes （复选框）
 ### Radio Buttons （单选框）
 ### Password Fields （密码框）
+
+### 跟HTML5相关的输入框
+
+#### 日历输入
+
+``` HTML
+<div class="formRow">
+    <label for="lastContacted">Last Contacted</lable>
+    <input name="lastContacted" id="lastContacted" type="date" />
+</div>
+```
 
 ## HTML5数据校验
 
