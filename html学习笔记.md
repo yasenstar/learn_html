@@ -55,13 +55,19 @@ hello world!!!
 ## 表单FORMS
 
 表单是HTML中用来从用户那里获取输入的元素，包括：
-* Text Fields
-* Select Lists
+* Text Fields（文本框）
+* Select Lists （选择列表）
 * Text Boxes (多行文本框)
-* Checkboxes
-* Radio Buttons
-* Password Fields
+* Checkboxes （复选框）
+* Radio Buttons （单选框）
+* Password Fields （密码框）
 
+### Text Fields（文本框）
+### Select Lists （选择列表）
+### Text Boxes (多行文本框)
+### Checkboxes （复选框）
+### Radio Buttons （单选框）
+### Password Fields （密码框）
 
 ## HTML5数据校验
 
