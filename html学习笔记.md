@@ -47,10 +47,24 @@ hello world!!!
 ```
 
 ## 列表 LISTS
+
 ## 表格 TABLES
-## FORMS
+
+## 表单FORMS
+
+表单是HTML中用来从用户那里获取输入的元素，包括：
+* Text Fields
+* Select Lists
+* Text Boxes (多行文本框)
+* Checkboxes
+* Radio Buttons
+* Password Fields
+
+
 ## HTML5数据校验
+
 ## 拖放
+
 ## 动态元素
 
 # CSS
