@@ -125,6 +125,32 @@ input {
 ```
 
 ### Select Lists （选择列表）
+
+输入如下代码以实现单位名称的选择：
+
+``` HTML
+<div class="formRow">
+    <label for="companyName">Company Name</label>
+    <select name="companyName" id="companyName">
+        <option value="-1">请选择</option>
+        <option value="1">ABC公司</option>
+        <option value="2">XYZ公司</option>
+        <option value="3">CCC公司</option>
+    </select>
+</div>
+```
+
+注意选择列表是包裹在select的标签中，在这个标签中，可以包含多个选择项option标签来提供不同的可能选择。
+每个option有两个值组成：
+1. 在option的两个标签中的文字是显示给用户的提示文字；
+2. option的value属性是赋值给选择项的值
+
+默认的 ，一个选择列表会选择第一个选择，你可以增加一个布尔值（是、否）来预先指定默认值：
+
+``` HTML
+<option value="3" selected>CCC公司</option>
+```
+
 ### Text Boxes (多行文本框)
 ### Checkboxes （复选框）
 ### Radio Buttons （单选框）
