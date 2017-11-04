@@ -1,4 +1,4 @@
-# HTML学习笔记
+# HTML学习笔记 2017
 
 [TOC]
 
@@ -55,5 +55,5 @@ hello world!!!
 
 # CSS
 
-# JAVASCRIPY
+# JAVASCRIPT
 
