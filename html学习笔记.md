@@ -63,6 +63,21 @@ hello world!!!
 * Password Fields （密码框）
 
 ### Text Fields（文本框）
+
+``` HTML
+<body>
+    <form action="submit.html" method="post">
+        <label for="firstName">First Name</label>:
+        <input id="firstName" name="firstName" type="text"/>
+        <p>
+        <label for="lastName">Last Name</label>:
+        <input id="lastName" name="lastName" type="text"/>
+        <p>
+        <input type=submit" value="Submit">
+    </form>
+</body>
+```
+
 ### Select Lists （选择列表）
 ### Text Boxes (多行文本框)
 ### Checkboxes （复选框）
